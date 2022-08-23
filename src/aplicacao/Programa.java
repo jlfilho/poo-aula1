@@ -40,6 +40,12 @@ public class Programa {
 		
 		System.out.println();
 		System.out.println("Dados atualizados: "+prod1);
+		
+		System.out.println();
+		System.out.println("Entre com a qtd de produtos a ser removido do estoque: ");
+		prod1.removerProduto(sc.nextInt());
+		
+		
 		sc.close();
 	
 	}
